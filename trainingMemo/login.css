@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+.text4 {
+    text-align: center;
+    background-color: #fff;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.textbox {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.t_form {
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #35383a;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.t_form::placeholder {
+    color: transparent;
+}
+
+.t_form:focus + label,
+.t_form:not(:placeholder-shown) + label {
+    transform: translateY(-1.5rem) scale(0.75);
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(1.5rem) scale(1);
+    transform-origin: left;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    color: #35383a;
+}
+
+.submit-btn {
+    padding: 1rem;
+    border: none;
+    background-color: #efeded;
+    color: #35383a;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #b08977;
+}
+
+.btn {
+    display: block;
+    margin-top: 20px;
+    color: #35383a;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: #b08977;
+}
+
+

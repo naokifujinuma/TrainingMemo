@@ -1,0 +1,81 @@
+/* exercise2.php */
+@charset "UTF-8";
+.content2 {
+    max-width: 1000px;
+    height: 698px;
+    margin: 60px auto;
+    position: relative;
+}
+.text {
+    text-align: center;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.t_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t_custom, .time {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.time {
+    width: 60%;
+}
+
+.t_custom input, .time input {
+    flex: 1;
+}
+.t_form {
+    order: 1;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #35383a;
+    outline: none;
+    background-color: transparent;
+    width: 50%;
+}
+.r_only {
+    font-size: 17px !important;
+    order: 1;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #35383a;
+    outline: none;
+    background-color: transparent;
+}
+input[type="number"]{
+    text-align: right;
+}
+input[type="text"]{
+    text-align: left;
+}
+.timer {
+    margin-top: 20px;
+}
+.timer .btn:hover {
+    background-color: #ffffff;
+}
+.slide {
+    display: flex;
+    justify-content: center;
+}
+.slide .btn {
+    display: inline-block;
+    border: solid 1px #35383a;
+    border-radius: 30px;
+    padding: 16px 50px;
+    transition: all 0.3s ease;
+}
+.slide .btn:hover {
+    background-color: #ffffff;
+}

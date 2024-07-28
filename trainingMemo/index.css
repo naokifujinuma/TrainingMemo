@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.btn_wrap .btn{
+    display: inline-block;
+    border: solid 1px #35383a;
+    border-radius: 30px;
+    padding: 16px 50px;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+}
+.btn_wrap2 .btn {
+    display: inline-block;
+    border: solid 1px #35383a;
+    border-radius: 30px;
+    padding: 7px 16px;
+    transition: all 0.3s ease;
+}
+.content2 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.content2 .content_inner {
+    margin: 60px;
+}
+.textarea {
+    width: 450px;
+    height: 100px;
+    resize: none;
+}

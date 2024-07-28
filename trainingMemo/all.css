@@ -1,0 +1,71 @@
+c
+
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #efeded;
+    color: #35383a;
+    font-family: 'Noto Serif JP', serif;
+}
+a {
+    color: #35383a;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.content {
+    max-width: 1000px;
+    height: 698px;
+    margin: 100px auto;
+    position: relative;
+}
+.text {
+    max-width: 680px;
+    background-color: #fff;
+    padding: 84px 160px 84px 84px;
+    position: absolute;
+    left: 0;
+}
+.text p {
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+.title {
+    border-bottom: solid 1px #35383a;
+    display: inline-block;
+    font-size: 1.875rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.large {
+    font-size: 1.875rem;
+    width: 500px;
+}
+.text .btn {
+    display: inline-block;
+    border: solid 1px #35383a;
+    border-radius: 30px;
+    padding: 16px 50px;
+    transition: all 0.3s ease;
+}
+.text .btn:hover {
+    background-color: #efeded;
+}
+.img {
+    max-width: 400px;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+}
+.img img {
+    vertical-align: bottom;
+}
+input[type="text"],input[type="number"]{
+    font-size: 150%;
+    color: #35383a;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+}
+
